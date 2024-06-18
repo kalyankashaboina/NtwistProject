@@ -16,12 +16,7 @@ app.use(express.json());
 
 
 
-const corsOptions = {
-    origin: 'http://localhost:3000', // replace with your frontend URL
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true,
-  };
+
 app.use(cors())
 
 
